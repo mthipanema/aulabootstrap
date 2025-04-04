@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS 5 - Cores e colunas</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="pag20.css" type="text/css" />
+   
+</head>
+<body>
+    <div class="container-fluid p-3">
+        <div class="row">
+            <div class="col-12">
+                <p>Mesmo que utilizemos o BootStrap,
+                 podemos utilizar em conjunto nosso próprio CSS,
+                 como na formatação de h3 border-bottom: 2px dashed orange
+                
+                <h3 class="border-bottom-orange">Faremos a primeira subdivisão de colunas equalitárias</h3>
+                
+                <div class="row demo-row">
+                    <div class="col-4 demo-col bg-primary">3 colunas-4,4,4</div>
+                    <div class="col-4 demo-col bg-success">com bg primary e sucess</div>
+                    <div class="col-4 demo-col bg-danger">e com bg danger no fim utilizando o container-fluid</div>
+                </div>
+                
+                <h3 class="border-bottom-orange">Faremos a segunda com duas colunas 5 e 4 com justify-content-around</h3>
+                
+                <div class="row justify-content-around demo-row">
+                    <div class="col-5 demo-col bg-primary">2 colunas-5-4-around</div>
+                    <div class="col-4 demo-col bg-success">com bg primary e success</div>
+                </div>
+                
+                <h3 class="border-bottom-orange">Faremos a terceira com mais do que 12 colunas para haver a quebra de linha</h3>
+                
+                <div class="row demo-row">
+                    <div class="col-3 demo-col bg-secondary">3 colunas-3,4,5</div>
+                    <div class="col-5 demo-col bg-warning text-dark">com bg primary, sucess e danger</div>
+                    <div class="col-5 demo-col bg-info text-dark">deu mais do que 12, logo quebra mesmo fluid</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

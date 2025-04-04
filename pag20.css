@@ -1,0 +1,16 @@
+
+.border-bottom-orange {
+    border-bottom: 2px dashed orange;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.demo-row {
+    margin-bottom: 20px;
+}
+
+.demo-col {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
